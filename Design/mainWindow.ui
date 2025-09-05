@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>802</width>
+    <height>606</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>802</width>
+    <height>606</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>BabyID </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>802</width>
+     <height>585</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>802</width>
+     <height>585</height>
+    </size>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(203, 203, 204);</string>
+    </property>
+    <widget class="QWidget" name="page_Acceuil"/>
+    <widget class="QWidget" name="page_Saisie"/>
+    <widget class="QWidget" name="page_listes"/>
+    <widget class="QWidget" name="page_stats"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionAcceuil"/>
+    <addaction name="actionEnregistrer_un_nouveau_N"/>
+    <addaction name="actionListes"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionAjouter">
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionModifier">
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+  </action>
+  <action name="actionAcceuil">
+   <property name="text">
+    <string>Acceuil</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_un_nouveau_N">
+   <property name="text">
+    <string>Enregistrer un nouveau Né</string>
+   </property>
+  </action>
+  <action name="actionListes">
+   <property name="text">
+    <string>Listes</string>
+   </property>
+  </action>
+  <action name="actionStatistiques">
+   <property name="text">
+    <string>Statistiques</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
