@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+#base de donnees
+*.db
+# .vs && .idea
+.vs
+.idea
+__pycache__
+build
+dist
